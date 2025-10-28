@@ -6,3 +6,4 @@ console.log(found);
 console.log(grade);
 console.log("Hi " + firstName);
 console.log("Hello ".concat(firstName, " ").concat(lastName));
+//Template strings require the back tick ^^^

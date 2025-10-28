@@ -1,9 +1,9 @@
-var Customer = /** @class */ (function () {
-    function Customer(first, last) {
+var Customer2 = /** @class */ (function () {
+    function Customer2(first, last) {
         this._firstName = first;
         this._lastName = last;
     }
-    Object.defineProperty(Customer.prototype, "firstName", {
+    Object.defineProperty(Customer2.prototype, "firstName", {
         get: function () {
             return this._firstName;
         },
@@ -13,7 +13,7 @@ var Customer = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(Customer.prototype, "lastName", {
+    Object.defineProperty(Customer2.prototype, "lastName", {
         get: function () {
             return this._lastName;
         },
@@ -23,8 +23,8 @@ var Customer = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    return Customer;
+    return Customer2;
 }());
-var myCustomer = new Customer("Martin", "Dixon");
-console.log(myCustomer.firstName);
-console.log(myCustomer.lastName);
+var myCustomer2 = new Customer2("Martin", "Dixon");
+console.log(myCustomer2.firstName);
+console.log(myCustomer2.lastName);
